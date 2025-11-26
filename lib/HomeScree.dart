@@ -10,7 +10,7 @@ class MyWidget extends StatelessWidget {
         title: const Text('Quran')
       ),
       
-      ),
+      );
 
   }
 }

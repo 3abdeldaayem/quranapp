@@ -1,0 +1,15 @@
+# flutter_native_splash-development.yaml
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/mosque Light.png
+  branding: assets/images/Rectangle light.png
+  color_dark: "#1C1C1C"
+  image_dark: assets/images/mosque Dark.png
+  branding_dark: assets/images/Rectangle dark.png
+
+  android_12:
+    image: assets/images/mosque Light.png
+    icon_background_color: "#FFFFFF"
+    image_dark: assets/images/mosque Dark.png
+    icon_background_color_dark: "#1C1C1C"
+

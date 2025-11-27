@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:quranapp/HomeScree.dart';
 
 void main(){
-  runApp(app);
+  runApp(MyApp());
 }
-class MyMyApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
 
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: 
-      routes: {
-        
+      debugShowCheckedModeBanner: false,
+      initialRoute: HomeScreen.routeName,
+       routes: {
+        HomeScreen.routeName:(context)=>HomeScreen()
       },
     );
   }

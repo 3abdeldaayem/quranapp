@@ -1,16 +1,20 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatelessWidget {
-  static const string routName='Home';
+class HomeScreen extends StatelessWidget {
+  static const String routeName= 'Home';
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Stack(
+      children: [
+Image.asset('assets/images/mosque Light.png'),
+      Scaffold(
       appBar: AppBar(
         title: const Text('Quran')
       ),
       
-      ),
+      )
 
+   ],);
   }
 }
